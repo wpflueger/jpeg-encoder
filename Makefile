@@ -10,4 +10,4 @@ info: clean jpeg_encoder.c
 	gcc -ggdb -DINFO -O0 -lm -Wall jpeg_encoder.c -o jpeg_encoder
 
 debug: clean jpeg_encoder.c
-	gcc -ggdb -DDEBUG -O0 -lm -Wall jpeg_encoder.c -o jpeg_encoder
+	gcc -ggdb -DDEBUG -O0 -Wall jpeg_encoder.c -o jpeg_encoder -lm
